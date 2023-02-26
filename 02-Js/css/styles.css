@@ -1,0 +1,79 @@
+body {
+      background-color: #000;
+      background-image: repeating-linear-gradient(90deg, transparent, transparent 50px,
+                  rgba(255, 127, 0, 0.25) 50px, rgba(255, 127, 0, 0.25) 56px, transparent 56px, transparent 63px,
+                  rgba(255, 127, 0, 0.25) 63px, rgba(255, 127, 0, 0.25) 69px, transparent 69px, transparent 116px,
+                  rgba(255, 206, 0, 0.25) 116px, rgba(255, 206, 0, 0.25) 166px),
+            repeating-linear-gradient(0deg, transparent, transparent 50px, rgba(255, 127, 0, 0.25) 50px,
+                  rgba(255, 127, 0, 0.25) 56px, transparent 56px, transparent 63px, rgba(255, 127, 0, 0.25) 63px,
+                  rgba(255, 127, 0, 0.25) 69px, transparent 69px, transparent 116px, rgba(255, 206, 0, 0.25) 116px,
+                  rgba(255, 206, 0, 0.25) 166px),
+            repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(143, 77, 63, 0.25) 5px,
+                  rgba(143, 77, 63, 0.25) 10px),
+            repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(143, 77, 63, 0.25) 5px,
+                  rgba(143, 77, 63, 0.25) 10px);
+                  
+}
+
+.CONTENEDOR {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+h1,
+h3,
+a {
+      color: white;
+}
+
+
+.form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      height: 400px;
+      width: 500px;
+}
+.form label{
+      font-size: 25px;
+      padding-bottom: 15px;
+}
+.form input{
+      height: 30px;
+      width: 150px;
+}
+.form h3{
+      color: #000;
+}
+
+.default{
+      width: 700px;
+      border-color: #000;
+      border-width: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px; 
+      flex-direction: column;
+      width: 100%;
+
+}
+
+.default table{
+      border-color: blue;
+      border-width: 5px;
+      border: double;
+      width: 80%;
+      background-color: white;
+      text-align: center;
+}
+
+img{
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+}
